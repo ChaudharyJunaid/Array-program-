@@ -1,0 +1,21 @@
+//Part 2
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int J[10];
+    int i;
+    
+    cout<<"Enter 10 integers "<<endl;
+    for(i=0; i<10; i++){
+    cin>>J[i];
+    };
+    
+    cout<<"Reverse order of integers are "<<endl;
+    
+    for(i=9; i>=0; i--){
+       cout<<J[i]<<endl;
+    };
+    return 0;
+}
